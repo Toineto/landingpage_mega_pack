@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mega Pack Canva - TOINMKT</title>
-    <!-- Tailwind CSS (via CDN para facilitar testes) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -21,12 +20,10 @@
         }
     </script>
     <style>
-        /* Fonte limpa e moderna */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
         body { font-family: 'Poppins', sans-serif; background-color: #0a0a0a; color: white; }
         html { scroll-behavior: smooth; }
         
-        /* Efeitos visuais do Neon e Gradiente */
         .text-gradient {
             background: linear-gradient(to right, #b026ff, #00d2ff);
             -webkit-background-clip: text;
@@ -38,7 +35,6 @@
             box-shadow: 0 0 15px rgba(176, 38, 255, 0.5), inset 0 0 15px rgba(176, 38, 255, 0.5);
         }
         
-        /* Botão pulsante para chamar muita atenção */
         .btn-green {
             background: linear-gradient(to right, #22c55e, #16a34a);
             animation: pulse 2s infinite;
@@ -50,7 +46,6 @@
             100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
         }
         
-        /* Animação suave para as perguntas frequentes */
         .accordion-content {
             max-height: 0;
             overflow: hidden;
@@ -60,9 +55,7 @@
 </head>
 <body class="antialiased selection:bg-neonPurple selection:text-white">
     
-    <!-- Hero Section (Topo da página) -->
     <header class="text-center py-20 px-5 flex flex-col items-center relative overflow-hidden">
-        <!-- Luz de fundo roxa -->
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-neonPurple opacity-20 blur-[120px] rounded-full pointer-events-none"></div>
         
         <h1 class="text-4xl md:text-6xl font-extrabold mb-6 max-w-4xl leading-tight relative z-10">
@@ -71,28 +64,24 @@
         <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl relative z-10">
             O maior e mais completo pack do mercado: Mais de 12.000 artes prontas e 100% editáveis no Canva para mais de 250 nichos por um preço ridículo.
         </p>
-        <a href="#oferta" class="btn-green text-white font-bold py-5 px-8 rounded-full text-xl uppercase tracking-wide transform transition hover:scale-105 relative z-10">
+        <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" class="btn-green text-white font-bold py-5 px-8 rounded-full text-xl uppercase tracking-wide transform transition hover:scale-105 relative z-10">
             Quero meu acesso imediato por R$ 19,90
         </a>
     </header>
 
-    <!-- Problem Section (Bloco das dores) -->
     <section class="py-16 px-5 bg-bgCard">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Você está <span class="text-red-500">perdendo vendas</span> para a concorrência?</h2>
         <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Card 1 -->
             <div class="bg-bgDark p-8 rounded-xl border border-gray-800 text-center hover:border-red-500 transition duration-300">
                 <div class="text-5xl mb-4">⏳</div>
                 <h3 class="text-xl font-bold mb-2">Falta de Tempo</h3>
                 <p class="text-gray-400">Passa horas tentando criar uma única arte e acaba deixando as redes sociais abandonadas.</p>
             </div>
-            <!-- Card 2 -->
             <div class="bg-bgDark p-8 rounded-xl border border-gray-800 text-center hover:border-red-500 transition duration-300">
                 <div class="text-5xl mb-4">🤯</div>
                 <h3 class="text-xl font-bold mb-2">Bloqueio Criativo</h3>
                 <p class="text-gray-400">Não tem ideia do que postar hoje, amanhã ou depois, e acaba desistindo de divulgar seu negócio.</p>
             </div>
-            <!-- Card 3 -->
             <div class="bg-bgDark p-8 rounded-xl border border-gray-800 text-center hover:border-red-500 transition duration-300">
                 <div class="text-5xl mb-4">📉</div>
                 <h3 class="text-xl font-bold mb-2">Perfil Amador</h3>
@@ -101,14 +90,11 @@
         </div>
     </section>
 
-    <!-- Solution Section (O que é o produto) -->
     <section class="py-20 px-5 max-w-5xl mx-auto">
         <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">A solução definitiva: <span class="text-gradient">Tudo pronto em poucos cliques.</span></h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div class="rounded-xl overflow-hidden neon-border p-2 bg-bgDark">
-                <div class="w-full h-80 bg-gray-800 rounded flex items-center justify-center text-gray-500 border border-gray-700">
-                    [Insira a imagem do seu Flyer Aqui]
-                </div>
+            <div class="rounded-xl overflow-hidden neon-border p-1 bg-bgDark">
+                <img src="watermarked_img_2913387742883100284.jpg" alt="Flyer Mega Pack Canva TOINMKT" class="w-full h-auto rounded">
             </div>
             <div>
                 <ul class="space-y-6 text-lg text-gray-300">
@@ -137,7 +123,6 @@
         </div>
     </section>
 
-    <!-- Social Proof (Prova Social) -->
     <section class="py-16 px-5 bg-bgCard">
         <h2 class="text-3xl font-bold text-center mb-12">Quem já usa, <span class="text-neonPurple">recomenda!</span></h2>
         <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -168,7 +153,6 @@
         </div>
     </section>
 
-    <!-- Offer Section (Ancoragem e Preço) -->
     <section id="oferta" class="py-24 px-5 flex flex-col items-center relative">
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neonBlue opacity-10 blur-[150px] rounded-full pointer-events-none"></div>
         
@@ -180,7 +164,7 @@
             </div>
             <p class="text-xl text-gray-300 mb-10 font-light">(Pagamento Único e Acesso Vitalício)</p>
             
-            <a href="#" class="btn-green text-white font-bold py-6 px-10 rounded-full text-2xl md:text-3xl uppercase tracking-wide block w-full md:w-[80%] transform transition hover:scale-105 mx-auto">
+            <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" class="btn-green text-white font-bold py-6 px-10 rounded-full text-2xl md:text-3xl uppercase tracking-wide block w-full md:w-[80%] transform transition hover:scale-105 mx-auto">
                 COMPRAR AGORA
             </a>
             
@@ -193,7 +177,6 @@
         </div>
     </section>
 
-    <!-- Guarantee Section -->
     <section class="py-12 px-5 bg-bgCard text-center border-y border-gray-800">
         <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 text-left">
             <div class="text-7xl">🛡️</div>
@@ -206,7 +189,6 @@
         </div>
     </section>
 
-    <!-- FAQ Section -->
     <section class="py-20 px-5 max-w-3xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Perguntas Frequentes</h2>
         
@@ -250,7 +232,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="py-10 text-center bg-black border-t border-gray-900 mt-10">
         <h3 class="font-bold text-2xl text-gradient mb-6">TOINMKT - Marketing Digital</h3>
         <div class="space-x-6 mb-6 text-sm text-gray-500">
@@ -260,13 +241,11 @@
         <p class="text-sm text-gray-700">&copy; 2026 TOINMKT. Todos os direitos reservados.</p>
     </footer>
 
-    <!-- Script de animação do FAQ -->
     <script>
         function toggleFAQ(button) {
             const content = button.nextElementSibling;
             const icon = button.querySelector('span');
             
-            // Lógica de abre/fecha
             if (content.style.maxHeight) {
                 content.style.maxHeight = null;
                 icon.innerHTML = '+';
