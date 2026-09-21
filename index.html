@@ -35,8 +35,22 @@
         }
     </script>
     <style>
-        body { font-family: 'Poppins', sans-serif; background-color: #08080c; color: #f1f5f9; }
-        html { scroll-behavior: smooth; }
+        html { 
+            scroll-behavior: smooth; 
+            overflow-x: hidden; 
+            max-width: 100vw;
+            width: 100%;
+        }
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background-color: #08080c; 
+            color: #f1f5f9; 
+            overflow-x: hidden; 
+            max-width: 100vw;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
         
         .text-gradient {
             background: linear-gradient(135deg, #00d2ff 0%, #b026ff 100%);
@@ -102,7 +116,7 @@
         }
     </style>
 </head>
-<body class="antialiased selection:bg-neonPurple selection:text-white pb-16 md:pb-0">
+<body class="antialiased selection:bg-neonPurple selection:text-white">
 
     <!-- Top Urgency Banner -->
     <aside aria-label="Aviso de Oferta" class="bg-gradient-to-r from-purple-950 via-indigo-900 to-cyan-950 text-white text-xs md:text-sm py-2 px-4 text-center font-medium border-b border-purple-800/40 relative z-50">
@@ -266,7 +280,7 @@
     </section>
 
     <!-- SOLUTION SECTION WITH FLYER SHOWCASE -->
-    <section id="solucao" class="py-20 px-4 sm:px-6 max-w-6xl mx-auto relative">
+    <section id="solucao" class="py-14 sm:py-20 px-4 sm:px-6 max-w-6xl mx-auto relative overflow-hidden">
         <div class="text-center max-w-3xl mx-auto mb-14">
             <span class="text-xs uppercase font-bold tracking-widest text-neonBlue mb-2 block">A Solução Definitiva</span>
             <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
@@ -570,7 +584,7 @@
     </section>
 
     <!-- OFFER / CHECKOUT SECTION -->
-    <section id="oferta" class="py-20 sm:py-24 px-4 sm:px-6 flex flex-col items-center relative">
+    <section id="oferta" class="py-14 sm:py-24 px-4 sm:px-6 flex flex-col items-center relative overflow-hidden">
         <!-- Ambient Backlight -->
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] ambient-glow-cyan blur-[160px] pointer-events-none"></div>
         
@@ -728,7 +742,7 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="py-12 px-4 sm:px-6 text-center bg-black border-t border-gray-900 mt-10">
+    <footer class="pt-10 pb-24 md:py-12 px-4 sm:px-6 text-center bg-black border-t border-gray-900 mt-6 sm:mt-10">
         <div class="max-w-4xl mx-auto">
             <h3 class="font-extrabold text-2xl text-gradient mb-3">toin mkt</h3>
             <p class="text-xs text-gray-400 max-w-lg mx-auto mb-6">
