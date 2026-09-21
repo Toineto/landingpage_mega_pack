@@ -1,6 +1,6 @@
 {
-  "name": "Mega Pack Canva - TOINMKT",
-  "description": "Landing page de vendas para o Mega Pack Canva TOINMKT com mais de 12.000 artes editáveis e prontas para mais de 250 nichos.",
+  "name": "Mega Pack Canva - toin mkt",
+  "description": "Landing page de vendas para o Mega Pack Canva toin mkt com mais de 12.000 artes editáveis e prontas para mais de 250 nichos.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

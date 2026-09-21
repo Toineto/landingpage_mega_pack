@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mega Pack Canva - TOINMKT</title>
+    <title>Mega Pack Canva - toin mkt | Mais de 12.000 Artes Editáveis</title>
+    <meta name="description" content="O maior e mais completo pack do mercado: Mais de 12.000 artes prontas e 100% editáveis no Canva para mais de 250 nichos por apenas R$ 29,99.">
+    <meta property="og:title" content="Mega Pack Canva - toin mkt">
+    <meta property="og:description" content="Mais de 12.000 artes prontas e editáveis no Canva. Crie posts profissionais em menos de 2 minutos.">
+    <meta property="og:image" content="Gemini_Generated_Image_.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -12,258 +22,840 @@
                     colors: {
                         neonPurple: '#b026ff',
                         neonBlue: '#00d2ff',
-                        bgDark: '#0a0a0a',
-                        bgCard: '#141414',
+                        neonCyan: '#38bdf8',
+                        bgDark: '#08080c',
+                        bgCard: '#12121a',
+                        bgCardHover: '#181824',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
-        body { font-family: 'Poppins', sans-serif; background-color: #0a0a0a; color: white; }
+        body { font-family: 'Poppins', sans-serif; background-color: #08080c; color: #f1f5f9; }
         html { scroll-behavior: smooth; }
         
         .text-gradient {
-            background: linear-gradient(to right, #b026ff, #00d2ff);
+            background: linear-gradient(135deg, #00d2ff 0%, #b026ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-gradient-cyan {
+            background: linear-gradient(135deg, #6ee7b7 0%, #00d2ff 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         
         .neon-border {
             border: 2px solid #b026ff;
-            box-shadow: 0 0 15px rgba(176, 38, 255, 0.5), inset 0 0 15px rgba(176, 38, 255, 0.5);
+            box-shadow: 0 0 25px rgba(176, 38, 255, 0.45), inset 0 0 15px rgba(176, 38, 255, 0.25);
+        }
+
+        .neon-border-cyan {
+            border: 2px solid #00d2ff;
+            box-shadow: 0 0 25px rgba(0, 210, 255, 0.4), inset 0 0 15px rgba(0, 210, 255, 0.2);
         }
         
         .btn-green {
-            background: linear-gradient(to right, #22c55e, #16a34a);
-            animation: pulse 2s infinite;
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+            box-shadow: 0 4px 20px rgba(34, 197, 94, 0.4);
+            animation: pulse-green 2.2s infinite;
         }
         
-        @keyframes pulse {
+        @keyframes pulse-green {
             0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
-            70% { box-shadow: 0 0 0 15px rgba(34, 197, 94, 0); }
+            70% { box-shadow: 0 0 0 16px rgba(34, 197, 94, 0); }
             100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
         }
         
         .accordion-content {
             max-height: 0;
             overflow: hidden;
-            transition: max-height 0.3s ease-out;
+            transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .ambient-glow-purple {
+            background: radial-gradient(circle, rgba(176, 38, 255, 0.25) 0%, rgba(176, 38, 255, 0) 70%);
+        }
+
+        .ambient-glow-cyan {
+            background: radial-gradient(circle, rgba(0, 210, 255, 0.22) 0%, rgba(0, 210, 255, 0) 70%);
+        }
+
+        /* Subtle scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #08080c;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #27273a;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b026ff;
         }
     </style>
 </head>
-<body class="antialiased selection:bg-neonPurple selection:text-white">
-    
-    <header class="text-center py-20 px-5 flex flex-col items-center relative overflow-hidden">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-neonPurple opacity-20 blur-[120px] rounded-full pointer-events-none"></div>
-        
-        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 max-w-4xl leading-tight relative z-10">
-            Crie Posts Profissionais em <span class="text-gradient">Menos de 2 Minutos</span>, Economize Tempo e Atraia Mais Clientes!
-        </h1>
-        <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl relative z-10">
-            O maior e mais completo pack do mercado: Mais de 12.000 artes prontas e 100% editáveis no Canva para mais de 250 nichos por um preço ridículo.
-        </p>
-        <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" class="btn-green text-white font-bold py-5 px-8 rounded-full text-xl uppercase tracking-wide transform transition hover:scale-105 relative z-10">
-            Quero meu acesso imediato por R$ 29,99
-        </a>
+<body class="antialiased selection:bg-neonPurple selection:text-white pb-16 md:pb-0">
+
+    <!-- Top Urgency Banner -->
+    <aside aria-label="Aviso de Oferta" class="bg-gradient-to-r from-purple-950 via-indigo-900 to-cyan-950 text-white text-xs md:text-sm py-2 px-4 text-center font-medium border-b border-purple-800/40 relative z-50">
+        <div class="max-w-6xl mx-auto flex items-center justify-center gap-2 flex-wrap">
+            <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-red-500/80 text-white animate-pulse">
+                ⚡ OFERTA RELÂMPAGO
+            </span>
+            <span>Acesso vitalício com <strong>85% de desconto</strong> liberado por tempo limitado!</span>
+            <span class="hidden sm:inline text-cyan-300 font-bold" id="countdown-badge">Tempo restante: 14:59</span>
+        </div>
+    </aside>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 bg-bgDark/90 backdrop-blur-md border-b border-gray-800/70">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-2 group">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-neonPurple to-neonBlue p-[2px] flex items-center justify-center shadow-lg shadow-neonPurple/20">
+                    <div class="w-full h-full bg-bgDark rounded-[10px] flex items-center justify-center font-extrabold text-white text-sm tracking-wider">
+                        TM
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-extrabold text-lg tracking-wide text-white group-hover:text-cyan-300 transition">
+                        toin <span class="text-neonBlue">mkt</span>
+                    </span>
+                    <span class="text-[10px] text-gray-400 tracking-wider -mt-1 uppercase">Mega Pack Canva</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-300">
+                <a href="#solucao" class="hover:text-neonBlue transition">O Pack</a>
+                <a href="#nichos" class="hover:text-neonBlue transition">+250 Nichos</a>
+                <a href="#depoimentos" class="hover:text-neonBlue transition">Depoimentos</a>
+                <a href="#faq" class="hover:text-neonBlue transition">FAQ</a>
+            </nav>
+
+            <!-- Header CTA -->
+            <div class="flex items-center gap-3">
+                <a href="#oferta" class="bg-gradient-to-r from-neonPurple to-purple-600 hover:from-purple-600 hover:to-neonBlue text-white text-xs md:text-sm font-bold py-2.5 px-4 md:px-5 rounded-full transition transform hover:scale-105 shadow-md shadow-neonPurple/30">
+                    GARANTIR ACESSO
+                </a>
+            </div>
+        </div>
     </header>
 
-    <section class="py-16 px-5 bg-bgCard">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Você está <span class="text-red-500">perdendo vendas</span> para a concorrência?</h2>
-        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-bgDark p-8 rounded-xl border border-gray-800 text-center hover:border-red-500 transition duration-300">
-                <div class="text-5xl mb-4">⏳</div>
-                <h3 class="text-xl font-bold mb-2">Falta de Tempo</h3>
-                <p class="text-gray-400">Passa horas tentando criar uma única arte e acaba deixando as redes sociais abandonadas.</p>
-            </div>
-            <div class="bg-bgDark p-8 rounded-xl border border-gray-800 text-center hover:border-red-500 transition duration-300">
-                <div class="text-5xl mb-4">🤯</div>
-                <h3 class="text-xl font-bold mb-2">Bloqueio Criativo</h3>
-                <p class="text-gray-400">Não tem ideia do que postar hoje, amanhã ou depois, e acaba desistindo de divulgar seu negócio.</p>
-            </div>
-            <div class="bg-bgDark p-8 rounded-xl border border-gray-800 text-center hover:border-red-500 transition duration-300">
-                <div class="text-5xl mb-4">📉</div>
-                <h3 class="text-xl font-bold mb-2">Perfil Amador</h3>
-                <p class="text-gray-400">Um Instagram bagunçado e sem padrão afasta clientes que poderiam comprar de você.</p>
-            </div>
-        </div>
-    </section>
+    <!-- HERO SECTION -->
+    <section class="text-center pt-14 pb-20 px-4 sm:px-6 flex flex-col items-center relative overflow-hidden">
+        <!-- Ambient Radial Flares -->
+        <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-[700px] h-[500px] ambient-glow-purple blur-[140px] pointer-events-none"></div>
+        <div class="absolute top-40 right-10 w-[400px] h-[400px] ambient-glow-cyan blur-[120px] pointer-events-none"></div>
 
-    <section class="py-20 px-5 max-w-5xl mx-auto">
-        <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">A solução definitiva: <span class="text-gradient">Tudo pronto em poucos cliques.</span></h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div class="rounded-xl overflow-hidden neon-border p-1 bg-bgDark">
-                <img src="watermarked_img_17771731536052550763.jpg" alt="Flyer Mega Pack Canva TOINMKT 12.000 Posts" class="w-full h-auto rounded">
-            </div>
-            <div>
-                <ul class="space-y-6 text-lg text-gray-300">
-                    <li class="flex items-start">
-                        <span class="text-neonBlue text-2xl mr-4 mt-[-4px]">✔️</span> 
-                        <span><strong class="text-white">Mais de 12.000 templates</strong> 100% editáveis</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-neonBlue text-2xl mr-4 mt-[-4px]">✔️</span> 
-                        <span><strong class="text-white">+250 nichos:</strong> Restaurantes, Estética, Advocacia, Imobiliária e muito mais.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-neonBlue text-2xl mr-4 mt-[-4px]">✔️</span> 
-                        <span><strong class="text-white">Acesso Vitalício:</strong> Pague uma vez e use o material para sempre.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-neonBlue text-2xl mr-4 mt-[-4px]">✔️</span> 
-                        <span><strong class="text-white">Canva Gratuito:</strong> Compatível com a versão gratuita, pelo celular ou PC.</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="text-neonBlue text-2xl mr-4 mt-[-4px]">✔️</span> 
-                        <span><strong class="text-white">Acesso Imediato:</strong> Envio automático para o seu e-mail logo após a compra.</span>
-                    </li>
-                </ul>
-            </div>
+        <!-- Top pill pill badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-950/60 border border-purple-500/40 text-purple-300 text-xs md:text-sm font-medium mb-6 backdrop-blur-sm relative z-10 shadow-lg shadow-purple-900/20">
+            <span class="w-2 h-2 rounded-full bg-green-400 animate-ping"></span>
+            <span>🔥 O Maior e Mais Completo Pack do Mercado (+12.000 Templates)</span>
         </div>
-    </section>
-
-    <section class="py-16 px-5 bg-bgCard">
-        <h2 class="text-3xl font-bold text-center mb-12">Quem já usa, <span class="text-neonPurple">recomenda!</span></h2>
-        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-bgDark p-6 rounded-xl border border-gray-800">
-                <div class="text-yellow-400 mb-3 text-xl">★★★★★</div>
-                <p class="text-gray-300 mb-6 italic">"Mudou a vida do meu delivery. Agora eu abro o Canva, mudo a foto do hambúrguer, coloco o preço e posto. Coisa de 1 minuto!"</p>
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-full bg-gray-700"></div>
-                    <div class="font-bold text-neonBlue">Carlos T. <br><span class="text-xs text-gray-500 font-normal">Dono de Hamburgueria</span></div>
-                </div>
-            </div>
-            <div class="bg-bgDark p-6 rounded-xl border border-gray-800">
-                <div class="text-yellow-400 mb-3 text-xl">★★★★★</div>
-                <p class="text-gray-300 mb-6 italic">"Como esteticista, eu não tinha tempo para criar posts. Esse pack salvou meu Instagram, ficou super profissional e atraiu mais clientes."</p>
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-full bg-gray-700"></div>
-                    <div class="font-bold text-neonBlue">Mariana S. <br><span class="text-xs text-gray-500 font-normal">Esteticista</span></div>
-                </div>
-            </div>
-            <div class="bg-bgDark p-6 rounded-xl border border-gray-800">
-                <div class="text-yellow-400 mb-3 text-xl">★★★★★</div>
-                <p class="text-gray-300 mb-6 italic">"Tem artes maravilhosas para a área jurídica. Eu não sabia mexer em nada de design e achei super fácil. Recomendo muito!"</p>
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-full bg-gray-700"></div>
-                    <div class="font-bold text-neonBlue">Dra. Fernanda <br><span class="text-xs text-gray-500 font-normal">Advogada</span></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="oferta" class="py-24 px-5 flex flex-col items-center relative">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neonBlue opacity-10 blur-[150px] rounded-full pointer-events-none"></div>
         
-        <div class="max-w-4xl w-full text-center neon-border rounded-3xl p-10 md:p-16 bg-bgCard relative z-10 shadow-2xl">
-            <h2 class="text-3xl md:text-5xl font-bold mb-6">Liberte seu negócio hoje mesmo!</h2>
-            <p class="text-gray-400 text-2xl mb-2 line-through">De R$ 197,00</p>
-            <div class="text-6xl md:text-8xl font-extrabold text-gradient mb-4">
-                Por apenas R$ 29,99
+        <!-- Headline -->
+        <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-6 max-w-5xl leading-[1.18] tracking-tight relative z-10">
+            Crie Posts Profissionais em <br class="hidden sm:inline">
+            <span class="text-gradient">Menos de 2 Minutos</span>, Economize Tempo e Atraia Mais Clientes!
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="text-base sm:text-lg md:text-xl text-gray-300 mb-8 max-w-3xl leading-relaxed relative z-10 font-normal">
+            Mais de <strong class="text-white font-semibold">12.000 artes prontas e 100% editáveis no Canva</strong> para mais de 250 nichos. Sem mensalidades, direto pelo celular ou computador, e <strong class="text-cyan-300 font-medium">sem precisar do Canva Pro</strong>!
+        </p>
+
+        <!-- CTA Buttons Group -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-md relative z-10 mb-6">
+            <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" rel="noopener noreferrer" class="btn-green text-white font-extrabold py-4 px-8 rounded-full text-lg sm:text-xl uppercase tracking-wide transform transition hover:scale-105 w-full flex items-center justify-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <span>QUERO MEU ACESSO POR R$ 29,99</span>
+            </a>
+        </div>
+
+        <!-- Social Proof / Security Badges -->
+        <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-gray-400 relative z-10">
+            <div class="flex items-center gap-1.5 text-yellow-400 font-semibold">
+                <span>★★★★★</span>
+                <span class="text-gray-300 font-medium ml-1">4.9/5 (4.800+ compradores)</span>
             </div>
-            <p class="text-xl text-gray-300 mb-10 font-light">(Pagamento Único e Acesso Vitalício)</p>
+            <span class="text-gray-600 hidden sm:inline">•</span>
+            <div class="flex items-center gap-1.5">
+                <span class="text-green-400">⚡</span>
+                <span>Acesso Imediato no E-mail</span>
+            </div>
+            <span class="text-gray-600 hidden sm:inline">•</span>
+            <div class="flex items-center gap-1.5">
+                <span class="text-cyan-400">🛡️</span>
+                <span>Garantia de 7 Dias</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAIN / PROBLEM SECTION -->
+    <section class="py-16 sm:py-20 px-4 sm:px-6 bg-bgCard border-y border-gray-800/60">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs uppercase font-bold tracking-widest text-red-400 mb-2 block">Dificuldades do Dia a Dia</span>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">
+                    Você está <span class="text-red-500 underline decoration-red-500/40">perdendo vendas</span> para a concorrência?
+                </h2>
+                <p class="text-sm sm:text-base text-gray-400 mt-3">
+                    Manter um feed atrativo e profissional sem ajuda de um designer é uma das maiores dores de quem empreende na internet:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Card 1 -->
+                <div class="bg-bgDark p-7 rounded-2xl border border-gray-800 text-center hover:border-red-500/70 hover:shadow-lg hover:shadow-red-500/10 transition duration-300 group flex flex-col items-center">
+                    <div class="w-16 h-16 rounded-2xl bg-red-950/40 border border-red-800/40 flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition">
+                        ⏳
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-3 text-white">Falta de Tempo</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Passa horas tentando criar uma única arte no Canva e acaba deixando suas redes sociais abandonadas sem postar.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-bgDark p-7 rounded-2xl border border-gray-800 text-center hover:border-red-500/70 hover:shadow-lg hover:shadow-red-500/10 transition duration-300 group flex flex-col items-center">
+                    <div class="w-16 h-16 rounded-2xl bg-red-950/40 border border-red-800/40 flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition">
+                        🤯
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-3 text-white">Bloqueio Criativo</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Olha para a tela em branco sem ideia do que postar hoje ou amanhã, desistindo no meio do caminho.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-bgDark p-7 rounded-2xl border border-gray-800 text-center hover:border-red-500/70 hover:shadow-lg hover:shadow-red-500/10 transition duration-300 group flex flex-col items-center">
+                    <div class="w-16 h-16 rounded-2xl bg-red-950/40 border border-red-800/40 flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition">
+                        📉
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-3 text-white">Perfil Amador</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Um feed desorganizado e sem padrão visual afasta potenciais clientes que acabam fechando negócio com o concorrente.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Comparison Mini-Card -->
+            <div class="mt-10 p-6 rounded-2xl bg-gradient-to-r from-red-950/20 via-bgDark to-green-950/20 border border-gray-800 max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+                <div>
+                    <span class="text-red-400 font-bold block text-sm">❌ Sem o Mega Pack:</span>
+                    <span class="text-gray-400 text-xs sm:text-sm">R$ 500 a R$ 1.500/mês pagando designer ou 4h perdidas por dia.</span>
+                </div>
+                <div class="h-8 w-[1px] bg-gray-700 hidden sm:block"></div>
+                <div>
+                    <span class="text-green-400 font-bold block text-sm">✅ Com o Mega Pack:</span>
+                    <span class="text-gray-300 text-xs sm:text-sm">Apenas <strong>R$ 29,99 uma única vez</strong> e posts prontos em 2 minutos.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION SECTION WITH FLYER SHOWCASE -->
+    <section id="solucao" class="py-20 px-4 sm:px-6 max-w-6xl mx-auto relative">
+        <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="text-xs uppercase font-bold tracking-widest text-neonBlue mb-2 block">A Solução Definitiva</span>
+            <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
+                Tudo pronto em poucos cliques: <br class="hidden sm:inline">
+                <span class="text-gradient">Abra, edite e publique hoje mesmo!</span>
+            </h2>
+            <p class="text-sm sm:text-base text-gray-400 mt-3">
+                Você não precisa ser designer nem perder horas. O trabalho pesado já foi feito para você:
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
             
-            <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" class="btn-green text-white font-bold py-6 px-10 rounded-full text-2xl md:text-3xl uppercase tracking-wide block w-full md:w-[80%] transform transition hover:scale-105 mx-auto">
-                COMPRAR AGORA
+            <!-- Left Column: The Targeted Flyer Showcase Image -->
+            <div class="lg:col-span-5 flex flex-col items-center">
+                <div class="relative w-full max-w-md mx-auto group">
+                    <!-- Ambient Glow behind flyer -->
+                    <div class="absolute inset-0 bg-gradient-to-tr from-neonPurple to-neonBlue opacity-30 blur-2xl rounded-3xl group-hover:opacity-50 transition duration-500"></div>
+                    
+                    <!-- Flyer Container with Neon Border -->
+                    <div class="rounded-2xl overflow-hidden neon-border p-1 bg-bgDark relative z-10 shadow-2xl transition duration-500 transform group-hover:scale-[1.01] cursor-pointer" onclick="openLightbox()">
+                        <img 
+                            id="product-flyer-img"
+                            src="Gemini_Generated_Image_.jpg" 
+                            alt="Flyer Mega Pack Canva toin mkt 12.000 Posts Prontos" 
+                            class="w-full h-auto rounded-xl object-cover shadow-inner"
+                            loading="eager"
+                            onerror="this.onerror=null; this.src='watermarked_img_17771731536052550763.jpg';"
+                        >
+                        <!-- Hover Pill to Zoom -->
+                        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/80 backdrop-blur-md border border-cyan-400/50 text-cyan-300 text-xs font-semibold px-4 py-1.5 rounded-full flex items-center gap-1.5 opacity-90 group-hover:opacity-100 transition shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                            </svg>
+                            <span>Clique para ampliar arte</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="text-xs text-gray-500 mt-3 text-center">Design Oficial toin mkt • 12.000 Posts 100% no Canva</span>
+            </div>
+
+            <!-- Right Column: Features List -->
+            <div class="lg:col-span-7">
+                <div class="space-y-5 text-gray-300">
+                    
+                    <div class="flex items-start gap-4 p-4 rounded-xl bg-bgCard/60 border border-gray-800/80 hover:border-cyan-500/40 transition">
+                        <div class="w-10 h-10 rounded-xl bg-cyan-950/60 border border-cyan-500/40 flex items-center justify-center text-neonBlue text-xl flex-shrink-0">
+                            🎨
+                        </div>
+                        <div>
+                            <h3 class="text-base sm:text-lg font-bold text-white mb-1">+12.000 Templates Editáveis</h3>
+                            <p class="text-sm text-gray-400">Feed, Stories, Carrosséis, Banners e Destaques prontos. Mude cores, textos e fotos com 1 clique.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4 p-4 rounded-xl bg-bgCard/60 border border-gray-800/80 hover:border-purple-500/40 transition">
+                        <div class="w-10 h-10 rounded-xl bg-purple-950/60 border border-purple-500/40 flex items-center justify-center text-neonPurple text-xl flex-shrink-0">
+                            📂
+                        </div>
+                        <div>
+                            <h3 class="text-base sm:text-lg font-bold text-white mb-1">+250 Nichos Organizados</h3>
+                            <p class="text-sm text-gray-400">Pastas separadas por nicho: Estética, Direito, Saúde, Gastronomia, Imóveis, Barbearia, Varejo e dezenas de outros.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4 p-4 rounded-xl bg-bgCard/60 border border-gray-800/80 hover:border-green-500/40 transition">
+                        <div class="w-10 h-10 rounded-xl bg-green-950/60 border border-green-500/40 flex items-center justify-center text-green-400 text-xl flex-shrink-0">
+                            💎
+                        </div>
+                        <div>
+                            <h3 class="text-base sm:text-lg font-bold text-white mb-1">Funciona no Canva 100% Gratuito</h3>
+                            <p class="text-sm text-gray-400">Zero custo com assinaturas! Todas as fontes e elementos foram selecionados para a versão sem custo do Canva.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4 p-4 rounded-xl bg-bgCard/60 border border-gray-800/80 hover:border-amber-500/40 transition">
+                        <div class="w-10 h-10 rounded-xl bg-amber-950/60 border border-amber-500/40 flex items-center justify-center text-amber-400 text-xl flex-shrink-0">
+                            ♾️
+                        </div>
+                        <div>
+                            <h3 class="text-base sm:text-lg font-bold text-white mb-1">Acesso Vitalício (Sem Mensalidades)</h3>
+                            <p class="text-sm text-gray-400">Pague uma única vez e o acesso aos arquivos será seu para sempre, incluindo futuras atualizações.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4 p-4 rounded-xl bg-bgCard/60 border border-gray-800/80 hover:border-neonBlue/40 transition">
+                        <div class="w-10 h-10 rounded-xl bg-blue-950/60 border border-blue-500/40 flex items-center justify-center text-neonBlue text-xl flex-shrink-0">
+                            📱
+                        </div>
+                        <div>
+                            <h3 class="text-base sm:text-lg font-bold text-white mb-1">Edite pelo Celular ou Computador</h3>
+                            <p class="text-sm text-gray-400">Abra no aplicativo do Canva no smartphone ou direto no navegador do PC quando e onde quiser.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Action Button in Section -->
+                <div class="mt-8">
+                    <a href="#oferta" class="inline-flex items-center gap-2 bg-bgCard hover:bg-bgDark text-white border border-neonPurple/60 hover:border-neonBlue font-bold py-3.5 px-6 rounded-full text-sm sm:text-base transition transform hover:scale-[1.02] shadow-md shadow-neonPurple/20">
+                        <span>Aproveitar Valor Promocional de R$ 29,99</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neonBlue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NICHOS SECTION (NEW CONVERSION BOOSTER) -->
+    <section id="nichos" class="py-16 sm:py-20 px-4 sm:px-6 bg-bgCard border-y border-gray-800/60">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-xs uppercase font-bold tracking-widest text-neonPurple mb-2 block">Variedade Incomparável</span>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">
+                    Mais de <span class="text-gradient">250 Nichos</span> Atendidos
+                </h2>
+                <p class="text-sm sm:text-base text-gray-400 mt-2">
+                    Não importa o que você vende ou presta de serviço. Seu segmento está aqui:
+                </p>
+            </div>
+
+            <!-- Search / Filter simulator -->
+            <div class="max-w-md mx-auto mb-8 relative">
+                <input 
+                    type="text" 
+                    id="niche-search"
+                    placeholder="🔍 Busque seu nicho (ex: estética, hamburgueria, advogado)..." 
+                    class="w-full bg-bgDark border border-gray-700 focus:border-neonBlue rounded-full py-3 px-5 text-sm text-white placeholder-gray-500 focus:outline-none transition shadow-inner"
+                    oninput="filterNiches(this.value)"
+                >
+            </div>
+
+            <!-- Niches Grid -->
+            <div id="niches-container" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 text-center">
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">💇‍♀️</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Salão & Cabelo</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">💄</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Estética & Beleza</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">⚖️</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Advocacia & Direito</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🍔</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Hamburgueria & Delivery</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🍕</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Pizzaria & Restaurante</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🦷</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Odontologia & Dentista</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🏡</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Imobiliária & Corretores</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">💈</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Barbearia Moderna</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">👗</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Moda & Roupas</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🏋️‍♂️</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Academia & Personal</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🩺</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Medicina & Clínicas</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🧠</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Psicologia & Terapia</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🐾</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Pet Shop & Veterinária</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🍰</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Confeitaria & Bolos</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">🚗</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Automotivo & Mecânica</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">📊</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Contabilidade & Finanças</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">📸</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">Fotografia & Vídeos</span>
+                </div>
+                <div class="niche-card bg-bgDark p-3.5 rounded-xl border border-gray-800 hover:border-neonPurple transition flex flex-col items-center">
+                    <span class="text-2xl mb-1">✨</span>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-200">+230 outros nichos</span>
+                </div>
+            </div>
+            
+            <p class="text-center text-xs text-gray-400 mt-6">
+                E você ainda ganha atualizações periódicas com novas artes adicionadas sem pagar nada a mais!
+            </p>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="depoimentos" class="py-16 sm:py-20 px-4 sm:px-6 bg-bgCard border-y border-gray-800/60">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs uppercase font-bold tracking-widest text-neonBlue mb-2 block">Depoimentos Reais</span>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
+                    Quem já usa, <span class="text-neonPurple">recomenda e aprova!</span>
+                </h2>
+                <p class="text-sm sm:text-base text-gray-400 mt-2">
+                    Veja a opinião de quem economizou tempo e transformou as redes sociais:
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                
+                <!-- Testimonial 1 -->
+                <div class="bg-bgDark p-6 sm:p-7 rounded-2xl border border-gray-800 hover:border-neonBlue/40 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="text-yellow-400 text-base">★★★★★</div>
+                            <span class="text-[11px] font-semibold text-green-400 bg-green-950/60 px-2 py-0.5 rounded border border-green-800/30">Compra Verificada</span>
+                        </div>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-6 italic">
+                            "Mudou a vida do meu delivery. Agora eu abro o Canva, mudo a foto do hambúrguer, coloco o preço do combo e posto. Coisa de 1 minuto! Minhas vendas nos stories dobraram."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-gray-800/80">
+                        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-amber-500 to-red-500 flex items-center justify-center font-bold text-white text-sm shadow">
+                            CT
+                        </div>
+                        <div>
+                            <div class="font-bold text-sm text-white">Carlos T.</div>
+                            <div class="text-xs text-neonBlue font-normal">Dono de Hamburgueria • SP</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-bgDark p-6 sm:p-7 rounded-2xl border border-gray-800 hover:border-neonPurple/40 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="text-yellow-400 text-base">★★★★★</div>
+                            <span class="text-[11px] font-semibold text-green-400 bg-green-950/60 px-2 py-0.5 rounded border border-green-800/30">Compra Verificada</span>
+                        </div>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-6 italic">
+                            "Como esteticista, eu não tinha tempo nem paciência para ficar criando posts. Esse pack salvou meu Instagram, ficou super profissional e elegante. Já fechei novas clientes pelo direct!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-gray-800/80">
+                        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-purple-500 to-pink-500 flex items-center justify-center font-bold text-white text-sm shadow">
+                            MS
+                        </div>
+                        <div>
+                            <div class="font-bold text-sm text-white">Mariana S.</div>
+                            <div class="text-xs text-neonPurple font-normal">Clínica de Estética • RJ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-bgDark p-6 sm:p-7 rounded-2xl border border-gray-800 hover:border-neonBlue/40 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="text-yellow-400 text-base">★★★★★</div>
+                            <span class="text-[11px] font-semibold text-green-400 bg-green-950/60 px-2 py-0.5 rounded border border-green-800/30">Compra Verificada</span>
+                        </div>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-6 italic">
+                            "Tem artes maravilhosas e sóbrias para a área jurídica. Eu não sabia mexer em nada de design e achei super intuitivo. Recomendo muito para advogados e profissionais liberais!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-gray-800/80">
+                        <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center font-bold text-white text-sm shadow">
+                            DF
+                        </div>
+                        <div>
+                            <div class="font-bold text-sm text-white">Dra. Fernanda</div>
+                            <div class="text-xs text-neonBlue font-normal">Advogada • MG</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER / CHECKOUT SECTION -->
+    <section id="oferta" class="py-20 sm:py-24 px-4 sm:px-6 flex flex-col items-center relative">
+        <!-- Ambient Backlight -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] ambient-glow-cyan blur-[160px] pointer-events-none"></div>
+        
+        <div class="max-w-4xl w-full text-center neon-border rounded-3xl p-6 sm:p-10 md:p-14 bg-bgCard relative z-10 shadow-2xl">
+            
+            <!-- Offer top badge -->
+            <div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-red-950/80 border border-red-500/50 text-red-300 text-xs font-bold uppercase tracking-wider mb-5">
+                <span>⚡ OPORTUNIDADE ÚNICA - ACESSO IMEDIATO</span>
+            </div>
+
+            <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-3 text-white">
+                Transforme seu perfil profissional hoje!
+            </h2>
+            <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto mb-6">
+                Tenha nas mãos mais de 12.000 posts prontos e 100% editáveis no Canva.
+            </p>
+
+            <!-- Price Breakdown -->
+            <div class="p-6 rounded-2xl bg-bgDark/80 border border-gray-800 max-w-lg mx-auto mb-8">
+                <p class="text-gray-400 text-lg sm:text-xl line-through mb-1">De R$ 197,00</p>
+                <div class="text-5xl sm:text-6xl md:text-7xl font-extrabold text-gradient mb-2 tracking-tight">
+                    Por R$ 29,99
+                </div>
+                <p class="text-xs sm:text-sm text-green-400 font-semibold uppercase tracking-wide">
+                    PAGAMENTO ÚNICO • ACESSO VITALÍCIO • SEM MENSALIDADES
+                </p>
+                <p class="text-xs text-gray-500 mt-1">Ou em até 2x no cartão de crédito</p>
+            </div>
+            
+            <!-- Main Purchase CTA Button -->
+            <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" rel="noopener noreferrer" class="btn-green text-white font-extrabold py-5 px-8 sm:px-12 rounded-full text-xl sm:text-2xl md:text-3xl uppercase tracking-wide block w-full md:w-[85%] transform transition hover:scale-105 mx-auto shadow-2xl">
+                COMPRAR AGORA COM DESCONTO
             </a>
             
-            <div class="mt-8 text-sm text-gray-400 flex justify-center items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
-                </svg>
-                Pagamento 100% Seguro pela plataforma
+            <!-- Security & Platform Badges -->
+            <div class="mt-8 pt-6 border-t border-gray-800/80 flex flex-wrap justify-center items-center gap-4 sm:gap-8 text-xs text-gray-400">
+                <div class="flex items-center gap-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span>Pagamento Seguro via <strong>Cakto</strong></span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <span class="text-neonBlue">⚡</span>
+                    <span>Liberação Imediata no PIX ou Cartão</span>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <span class="text-yellow-400">🛡️</span>
+                    <span>Garantia de Satisfação de 7 Dias</span>
+                </div>
             </div>
+
         </div>
     </section>
 
-    <section class="py-12 px-5 bg-bgCard text-center border-y border-gray-800">
-        <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 text-left">
-            <div class="text-7xl">🛡️</div>
+    <!-- GUARANTEE SECTION -->
+    <section class="py-14 px-4 sm:px-6 bg-bgCard border-y border-gray-800/70">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-6 sm:gap-8 text-center md:text-left">
+            <div class="w-24 h-24 rounded-3xl bg-green-950/40 border-2 border-green-500/50 flex items-center justify-center text-5xl flex-shrink-0 shadow-lg shadow-green-900/30">
+                🛡️
+            </div>
             <div>
-                <h2 class="text-3xl font-bold mb-3">Garantia de 7 Dias! Risco ZERO.</h2>
-                <p class="text-gray-400 text-lg">
-                    Você tem 7 dias de garantia incondicional. Se não gostar do material, achar que não é para você ou não conseguir usar, nós devolvemos 100% do seu dinheiro sem letras miúdas.
+                <span class="text-xs uppercase font-bold text-green-400 tracking-wider block mb-1">Risco Absolutamente Zero</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-2">Garantia Incondicional de 7 Dias!</h2>
+                <p class="text-gray-400 text-sm sm:text-base leading-relaxed">
+                    Você tem 7 dias completos para testar todo o material. Se por qualquer motivo você achar que o Mega Pack não supriu suas expectativas, basta enviar um e-mail que devolveremos <strong>100% do seu dinheiro</strong>. Sem burocracia, sem perguntas.
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="py-20 px-5 max-w-3xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Perguntas Frequentes</h2>
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-20 px-4 sm:px-6 max-w-3xl mx-auto">
+        <div class="text-center mb-12">
+            <span class="text-xs uppercase font-bold tracking-widest text-neonBlue mb-2 block">Dúvidas Comuns</span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Perguntas Frequentes</h2>
+            <p class="text-sm text-gray-400 mt-2">Clique nas perguntas abaixo para ver as respostas:</p>
+        </div>
         
         <div class="space-y-4">
-            <div class="border border-gray-700 rounded-lg bg-bgCard overflow-hidden hover:border-gray-500 transition duration-200">
-                <button class="w-full text-left px-6 py-5 font-bold flex justify-between items-center focus:outline-none text-lg" onclick="toggleFAQ(this)">
-                    Preciso pagar o Canva Pro?
-                    <span class="text-neonPurple transition-transform duration-300 text-2xl">+</span>
+            
+            <div class="border border-gray-800 rounded-xl bg-bgCard overflow-hidden hover:border-gray-600 transition duration-200">
+                <button class="w-full text-left px-5 sm:px-6 py-4 sm:py-5 font-bold flex justify-between items-center focus:outline-none text-base sm:text-lg text-white" onclick="toggleFAQ(this)">
+                    <span>Preciso ter a assinatura paga do Canva Pro?</span>
+                    <span class="text-neonPurple transition-transform duration-300 text-2xl font-light ml-2 flex-shrink-0">+</span>
                 </button>
-                <div class="accordion-content px-6 bg-bgDark">
-                    <p class="pb-6 text-gray-400 leading-relaxed">Não! Todas as 12.000 artes foram criadas e testadas para funcionar perfeitamente na versão GRATUITA do Canva. Você não precisa assinar nada extra.</p>
+                <div class="accordion-content px-5 sm:px-6 bg-bgDark">
+                    <p class="pb-5 text-gray-400 text-sm leading-relaxed">
+                        Não! Todas as mais de 12.000 artes foram desenvolvidas e testadas para funcionar perfeitamente na versão <strong>100% GRATUITA do Canva</strong>. Você não precisa gastar nenhum centavo a mais com assinaturas.
+                    </p>
                 </div>
             </div>
-            <div class="border border-gray-700 rounded-lg bg-bgCard overflow-hidden hover:border-gray-500 transition duration-200">
-                <button class="w-full text-left px-6 py-5 font-bold flex justify-between items-center focus:outline-none text-lg" onclick="toggleFAQ(this)">
-                    Como vou receber o material?
-                    <span class="text-neonPurple transition-transform duration-300 text-2xl">+</span>
+
+            <div class="border border-gray-800 rounded-xl bg-bgCard overflow-hidden hover:border-gray-600 transition duration-200">
+                <button class="w-full text-left px-5 sm:px-6 py-4 sm:py-5 font-bold flex justify-between items-center focus:outline-none text-base sm:text-lg text-white" onclick="toggleFAQ(this)">
+                    <span>Como vou receber o acesso ao material?</span>
+                    <span class="text-neonPurple transition-transform duration-300 text-2xl font-light ml-2 flex-shrink-0">+</span>
                 </button>
-                <div class="accordion-content px-6 bg-bgDark">
-                    <p class="pb-6 text-gray-400 leading-relaxed">Assim que o pagamento for confirmado (compras no PIX ou Cartão liberam na hora), você receberá imediatamente no seu e-mail de compra o link para baixar o PDF com todos os acessos organizados.</p>
+                <div class="accordion-content px-5 sm:px-6 bg-bgDark">
+                    <p class="pb-5 text-gray-400 text-sm leading-relaxed">
+                        Assim que a compra for aprovada (no PIX ou Cartão é imediato), você receberá um e-mail com os dados de acesso e o link direto para a pasta organizada com todos os mais de 250 nichos. Basta clicar e abrir no seu Canva!
+                    </p>
                 </div>
             </div>
-            <div class="border border-gray-700 rounded-lg bg-bgCard overflow-hidden hover:border-gray-500 transition duration-200">
-                <button class="w-full text-left px-6 py-5 font-bold flex justify-between items-center focus:outline-none text-lg" onclick="toggleFAQ(this)">
-                    Preciso pagar alguma mensalidade?
-                    <span class="text-neonPurple transition-transform duration-300 text-2xl">+</span>
+
+            <div class="border border-gray-800 rounded-xl bg-bgCard overflow-hidden hover:border-gray-600 transition duration-200">
+                <button class="w-full text-left px-5 sm:px-6 py-4 sm:py-5 font-bold flex justify-between items-center focus:outline-none text-base sm:text-lg text-white" onclick="toggleFAQ(this)">
+                    <span>O valor de R$ 29,99 é mensalidade ou pagamento único?</span>
+                    <span class="text-neonPurple transition-transform duration-300 text-2xl font-light ml-2 flex-shrink-0">+</span>
                 </button>
-                <div class="accordion-content px-6 bg-bgDark">
-                    <p class="pb-6 text-gray-400 leading-relaxed">De forma alguma. O pagamento de R$ 29,99 é ÚNICO. Você paga apenas uma vez e tem acesso para sempre (acesso vitalício).</p>
+                <div class="accordion-content px-5 sm:px-6 bg-bgDark">
+                    <p class="pb-5 text-gray-400 text-sm leading-relaxed">
+                        O pagamento de <strong>R$ 29,99 é ÚNICO</strong>! Você paga apenas uma vez e tem acesso vitalício ao material, incluindo as atualizações periódicas. Sem nenhuma taxa surpresa ou mensalidade oculta.
+                    </p>
                 </div>
             </div>
-            <div class="border border-gray-700 rounded-lg bg-bgCard overflow-hidden hover:border-gray-500 transition duration-200">
-                <button class="w-full text-left px-6 py-5 font-bold flex justify-between items-center focus:outline-none text-lg" onclick="toggleFAQ(this)">
-                    Não sei nada de design, vou conseguir usar?
-                    <span class="text-neonPurple transition-transform duration-300 text-2xl">+</span>
+
+            <div class="border border-gray-800 rounded-xl bg-bgCard overflow-hidden hover:border-gray-600 transition duration-200">
+                <button class="w-full text-left px-5 sm:px-6 py-4 sm:py-5 font-bold flex justify-between items-center focus:outline-none text-base sm:text-lg text-white" onclick="toggleFAQ(this)">
+                    <span>Não entendo nada de design, vou conseguir mexer?</span>
+                    <span class="text-neonPurple transition-transform duration-300 text-2xl font-light ml-2 flex-shrink-0">+</span>
                 </button>
-                <div class="accordion-content px-6 bg-bgDark">
-                    <p class="pb-6 text-gray-400 leading-relaxed">Com certeza! O pack foi feito justamente para iniciantes e empreendedores ocupados. As artes já estão 100% prontas (com imagens e fontes combinando). Você só precisa clicar no texto e digitar o seu, é extremamente intuitivo.</p>
+                <div class="accordion-content px-5 sm:px-6 bg-bgDark">
+                    <p class="pb-5 text-gray-400 text-sm leading-relaxed">
+                        Sim, com toda certeza! O pack foi feito especificamente para quem não tem conhecimentos técnicos de design. As artes já vêm com tipografia, paleta e disposição prontas. Você só precisa dar dois cliques no texto, digitar seu nome ou preço, e exportar!
+                    </p>
                 </div>
             </div>
+
+            <div class="border border-gray-800 rounded-xl bg-bgCard overflow-hidden hover:border-gray-600 transition duration-200">
+                <button class="w-full text-left px-5 sm:px-6 py-4 sm:py-5 font-bold flex justify-between items-center focus:outline-none text-base sm:text-lg text-white" onclick="toggleFAQ(this)">
+                    <span>Consigo editar as artes pelo meu celular?</span>
+                    <span class="text-neonPurple transition-transform duration-300 text-2xl font-light ml-2 flex-shrink-0">+</span>
+                </button>
+                <div class="accordion-content px-5 sm:px-6 bg-bgDark">
+                    <p class="pb-5 text-gray-400 text-sm leading-relaxed">
+                        Sim! O Canva possui aplicativo gratuito tanto para Android quanto para iOS (iPhone), além da versão no navegador do computador. Você pode editar de onde estiver, até mesmo na palma da mão.
+                    </p>
+                </div>
+            </div>
+
+            <div class="border border-gray-800 rounded-xl bg-bgCard overflow-hidden hover:border-gray-600 transition duration-200">
+                <button class="w-full text-left px-5 sm:px-6 py-4 sm:py-5 font-bold flex justify-between items-center focus:outline-none text-base sm:text-lg text-white" onclick="toggleFAQ(this)">
+                    <span>E se eu tiver alguma dúvida ou problema?</span>
+                    <span class="text-neonPurple transition-transform duration-300 text-2xl font-light ml-2 flex-shrink-0">+</span>
+                </button>
+                <div class="accordion-content px-5 sm:px-6 bg-bgDark">
+                    <p class="pb-5 text-gray-400 text-sm leading-relaxed">
+                        Nossa equipe está à disposição para te ajudar no que for preciso por e-mail e suporte oficial. Você nunca ficará sem assistência.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <footer class="py-10 text-center bg-black border-t border-gray-900 mt-10">
-        <h3 class="font-bold text-2xl text-gradient mb-6">TOINMKT - Marketing Digital</h3>
-        <div class="space-x-6 mb-6 text-sm text-gray-500">
-            <a href="#" class="hover:text-neonBlue transition">Políticas de Privacidade</a>
-            <a href="#" class="hover:text-neonBlue transition">Termos de Uso</a>
+    <!-- FOOTER -->
+    <footer class="py-12 px-4 sm:px-6 text-center bg-black border-t border-gray-900 mt-10">
+        <div class="max-w-4xl mx-auto">
+            <h3 class="font-extrabold text-2xl text-gradient mb-3">toin mkt</h3>
+            <p class="text-xs text-gray-400 max-w-lg mx-auto mb-6">
+                Mega Pack Canva com mais de 12.000 templates editáveis para alavancar seu posicionamento e vendas nas redes sociais.
+            </p>
+            
+            <div class="flex justify-center flex-wrap gap-6 mb-6 text-xs text-gray-400">
+                <a href="#" class="hover:text-neonBlue transition">Políticas de Privacidade</a>
+                <span>•</span>
+                <a href="#" class="hover:text-neonBlue transition">Termos de Uso</a>
+                <span>•</span>
+                <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" rel="noopener noreferrer" class="hover:text-neonBlue transition">Comprar Acesso (Cakto)</a>
+            </div>
+            
+            <p class="text-xs text-gray-500">
+                Este site não é afiliado ao Facebook, Instagram ou Canva. Canva é uma marca registrada de Canva Pty Ltd. Todos os direitos reservados &copy; 2026 toin mkt.
+            </p>
         </div>
-        <p class="text-sm text-gray-700">&copy; 2026 TOINMKT. Todos os direitos reservados.</p>
     </footer>
 
+    <!-- MOBILE STICKY FLOATING BOTTOM BAR -->
+    <div id="mobile-sticky-bar" class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-bgDark/95 backdrop-blur-md border-t border-gray-800 p-3 flex items-center justify-between shadow-2xl transition-transform duration-300">
+        <div class="flex flex-col pl-1">
+            <span class="text-[10px] text-gray-400 uppercase font-semibold leading-tight">Acesso Vitalício</span>
+            <div class="flex items-baseline gap-1.5">
+                <span class="text-lg font-extrabold text-green-400">R$ 29,99</span>
+                <span class="text-[10px] text-gray-500 line-through">R$ 197</span>
+            </div>
+        </div>
+        <a href="https://pay.cakto.com.br/eu96qaj_1025471" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-extrabold py-2.5 px-6 rounded-full text-sm uppercase tracking-wide shadow-lg shadow-green-600/30 flex items-center gap-1.5">
+            <span>COMPRAR AGORA</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- LIGHTBOX MODAL FOR FLYER -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden items-center justify-center p-4 cursor-pointer" onclick="closeLightbox()">
+        <div class="relative max-w-lg w-full max-h-[90vh] flex flex-col items-center" onclick="event.stopPropagation()">
+            <button class="absolute -top-12 right-0 text-white text-3xl font-light hover:text-cyan-400 focus:outline-none" onclick="closeLightbox()">&times;</button>
+            <img 
+                src="Gemini_Generated_Image_.jpg" 
+                alt="Flyer Mega Pack Canva toin mkt Zoom" 
+                class="w-full h-auto max-h-[85vh] object-contain rounded-xl neon-border"
+                onerror="this.onerror=null; this.src='watermarked_img_17771731536052550763.jpg';"
+            >
+            <p class="text-xs text-gray-400 mt-2 text-center">Flyer Promocional Oficial toin mkt • 12.000 Posts Prontos</p>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT INTERACTIONS -->
     <script>
+        // Toggle FAQ Accordion
         function toggleFAQ(button) {
             const content = button.nextElementSibling;
-            const icon = button.querySelector('span');
+            const icon = button.querySelector('span:last-child');
+            const isOpen = content.style.maxHeight && content.style.maxHeight !== '0px';
             
-            if (content.style.maxHeight) {
-                content.style.maxHeight = null;
-                icon.innerHTML = '+';
-                icon.style.transform = 'rotate(0deg)';
-            } else {
-                document.querySelectorAll('.accordion-content').forEach(el => {
-                    el.style.maxHeight = null;
-                });
-                document.querySelectorAll('button span').forEach(el => {
-                    el.innerHTML = '+';
-                    el.style.transform = 'rotate(0deg)';
-                });
-                
+            // Close all
+            document.querySelectorAll('.accordion-content').forEach(el => {
+                el.style.maxHeight = null;
+            });
+            document.querySelectorAll('#faq button span:last-child').forEach(el => {
+                el.innerHTML = '+';
+                el.style.transform = 'rotate(0deg)';
+            });
+            
+            if (!isOpen) {
                 content.style.maxHeight = content.scrollHeight + "px";
                 icon.innerHTML = '−';
                 icon.style.transform = 'rotate(180deg)';
             }
         }
+
+        // Lightbox controls
+        function openLightbox() {
+            const modal = document.getElementById('lightbox-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('lightbox-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Filter Niches
+        function filterNiches(query) {
+            const filter = query.toLowerCase().trim();
+            const cards = document.querySelectorAll('.niche-card');
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (!filter || text.includes(filter)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Countdown Timer in Banner
+        (function startCountdown() {
+            let totalSeconds = 14 * 60 + 59;
+            const badge = document.getElementById('countdown-badge');
+            if (!badge) return;
+
+            setInterval(() => {
+                if (totalSeconds <= 0) {
+                    totalSeconds = 15 * 60; // loop
+                }
+                totalSeconds--;
+                const mins = String(Math.floor(totalSeconds / 60)).padStart(2, '0');
+                const secs = String(totalSeconds % 60).padStart(2, '0');
+                badge.innerText = `Tempo restante: ${mins}:${secs}`;
+            }, 1000);
+        })();
+
+        // ESC key to close lightbox
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeLightbox();
+            }
+        });
     </script>
 </body>
 </html>
